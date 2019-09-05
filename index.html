@@ -1,0 +1,1879 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>仿小米</title>
+    <!--生成icon的css样式-->
+    <link rel="stylesheet" type="text/css" href="search_icon/style.css">
+    <!--网站主体的css样式-->
+    <script src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/site_main.css">
+    <script src="js/site_mian_js.js"></script>
+</head>
+<body>
+<div class="nav">
+    <div class="container share_center">
+        <ul class="nav_title share_left">
+            <li><a href="#">小米商城</a></li><span> |</span>
+            <li><a href="#">MIUI</a></li><span> |</span>
+            <li><a href="#">IoT</a></li><span> |</span>
+            <li><a href="#">云服务</a></li><span> |</span>
+            <li><a href="#">金融</a></li><span> |</span>
+            <li><a href="#">有品</a></li><span> |</span>
+            <li><a href="#">小爱开放平台</a></li><span> |</span>
+            <li><a href="#">企业团购</a></li><span> |</span>
+            <li><a href="#">资质证照</a></li><span> |</span>
+            <li><a href="#">协议规则</a></li><span> |</span>
+            <li id="download"><a href="#">下载app</a>
+                <span class="box">
+                    <img src="images/app_qrcode.png" alt="">
+                    <span>小米商城APP</span>
+                </span>
+            </li><span> |</span>
+            <li><a href="#">Select Region</a></li>
+        </ul>
+        <div class="nav_cart share_right">
+            <a href="#" class="icon-uniE900"> 购物车(0)</a>
+        </div>
+        <ul class="nav_login share_right">
+            <li><a href="#">登录</a></li><span> |</span>
+            <li><a href="#">注册</a></li><span> |</span>
+            <li><a href="#">消息通知</a></li>
+        </ul>
+    </div>
+</div>
+<div class="site_header">
+    <div class="header_container share_center">
+        <a href="#" class="logo"></a>
+        <ul class="header_list">
+            <!--<li class="blank_box"></li>-->
+            <li>
+                <a href="#">小米手机</a>
+            </li>
+            <li><a href="#">Redmi红米</a></li>
+            <li><a href="#">电视</a></li>
+            <li><a href="#">笔记本</a></li>
+            <li><a href="#">家电</a></li>
+            <li><a href="#">路由器</a></li>
+            <li><a href="#">智能硬件</a></li>
+            <li><a href="#">服务</a></li>
+            <li><a href="#">社区</a></li>
+        </ul>
+        <div class="header_search">
+            <div class="search_hot_word">
+                <a href="#">小米9</a>
+                <a href="#">小米9 SE</a>
+            </div>
+            <input  class="search_text" type="search">
+            <div class="search_hide_hot_word">
+                <p>小米 9</p>
+                <p>Redmi K20 pro</p>
+                <p>Redmi K20</p>
+                <p>Redmi Note 7 Pro</p>
+                <p>Redmi note 7</p>
+                <p>小米电视4c</p>
+                <p>电视32英寸</p>
+                <p>笔记本pro</p>
+                <p>小爱音箱</p>
+                <p>净水器</p>
+            </div>
+            <input class="search_btn icon-search" type="submit" value="&#xe986;">
+        </div>
+    </div>
+    <div class="children_box">
+        <ul class="children_list share_center">
+            <li><a href="#">
+                <img src="images/nav/middle_phone.png" alt="">
+                <p class="title">小米CC9</p>
+                <p class="price">1799元起</p>
+            </a></li>
+            <li><a href="#">
+                <img src="images/nav/df9b3e7a562e02a33eb069b3f0119815.png" alt="">
+                <p class="title">小米CC9e</p>
+                <p class="price">1299元起</p>
+            </a></li>
+            <li><a href="#">
+                <img src="images/nav/b02f50c9dd2e01c139a06a12502755ef.png" alt="">
+                <p class="title">小米CC9 美图定制版</p>
+                <p class="price">2599元</p>
+            </a></li>
+            <li><a href="#">
+                <img src="images/nav/2c9307e9690dfbca39d8de770a7a8664.png" alt="">
+                <p class="title">小米9</p>
+                <p class="price">2599元起</p>
+            </a></li>
+            <li><a href="#">
+                <img src="images/nav/3b5e5829fdf92d54c167f4681531b535.png" alt="">
+                <p class="title">小米MIX 3</p>
+                <p class="price">2599元</p>
+            </a></li>
+            <li><a href="#">
+                <img src="images/nav/ae81fdc9f2ed286d135e16c2a5f6db33.webp" alt="">
+                <p class="title">小米MIX 2S</p>
+                <p class="price">1799元起</p>
+            </a></li>
+        </ul>
+    </div>
+</div>
+<div class="sitecategory share_center">
+    <!--轮播图-->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/xmad_15644893572801_tNUwO.jpg" alt="">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/xmad_15648844793779_rCSmy.jpg" alt="">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/xmad_15650061351615_PRHry.jpg" alt="">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/xmad_15651875793278_YxoFp.jpg" alt="">
+                <div class="carousel-caption">
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <ul class="site_category_list">
+        <li><a href="#">手机 电话卡</a><span>></span>
+            <!--鼠标悬浮出现子列表栏-->
+            <div class="children2_box" style="display: none">
+                <ul class="children2_list">
+                    <div class="col_1">
+                        <li><a href="#">
+                            <img src="images/site_category_list/0.jpg" alt="">
+                            <span>小米CC9</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/1.jpg" alt="">
+                            <span>小米CC美图版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/2.jpg" alt="">
+                            <span>小米CC9e</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/3.jpg" alt="">
+                            <span>小米C9</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/4.jpg" alt="">
+                            <span>小米9 SE</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/5.jpg" alt="">
+                            <span>小米MIX 3</span>
+                        </a></li>
+                    </div>
+                    <div class="col_2">
+                        <li><a href="#">
+                            <img src="images/site_category_list/6.jpg" alt="">
+                            <span>小米8 青春版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/7.jpg" alt="">
+                            <span>小米8指纹版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/8.jpg" alt="">
+                            <span>小米MIX 2S</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/9.jpg" alt="">
+                            <span>小米Max 3</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/10.jpg" alt="">
+                            <span>黑鲨手机2 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/11.jpg" alt="">
+                            <span>黑鲨手机2</span>
+                        </a></li>
+                    </div>
+                    <div class="col_3">
+                        <li><a href="#">
+                            <img src="images/site_category_list/10.jpg" alt="">
+                            <span>Redmi K20 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/11.jpg" alt="">
+                            <span>Redmi K20</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/12.jpg" alt="">
+                            <span>Redmi 7A</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/13.jpg" alt="">
+                            <span>Redmi 7</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/14.jpg" alt="">
+                            <span>RedmiNote7 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/15.jpg" alt="">
+                            <span>Redmi Note 7</span>
+                        </a></li>
+                    </div>
+                    <div class="col_4">
+                        <li><a href="#">
+                            <img src="images/site_category_list/16.jpg" alt="">
+                            <span>移动4G+专区</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/17.jpg" alt="">
+                            <span>小米移动 电话卡</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/18.jpg" alt="">
+                            <span>手机上门维修</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/19.jpg" alt="">
+                            <span>云服务空间月卡</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/20.jpg" alt="">
+                            <span>米粉卡 日租卡</span>
+                        </a></li>
+                    </div>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">电视 盒子</a><span>></span>
+            <div class="children2_box" style="display: none">
+                <ul class="children2_list">
+                    <div class="col_1">
+                        <li><a href="#">
+                            <img src="images/site_category_list/0.jpg" alt="">
+                            <span>小米CC9</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/1.jpg" alt="">
+                            <span>小米CC美图版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/2.jpg" alt="">
+                            <span>小米CC9e</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/3.jpg" alt="">
+                            <span>小米C9</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/4.jpg" alt="">
+                            <span>小米9 SE</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/5.jpg" alt="">
+                            <span>小米MIX 3</span>
+                        </a></li>
+                    </div>
+                    <div class="col_2">
+                        <li><a href="#">
+                            <img src="images/site_category_list/6.jpg" alt="">
+                            <span>小米8 青春版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/7.jpg" alt="">
+                            <span>小米8指纹版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/8.jpg" alt="">
+                            <span>小米MIX 2S</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/9.jpg" alt="">
+                            <span>小米Max 3</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/10.jpg" alt="">
+                            <span>黑鲨手机2 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/11.jpg" alt="">
+                            <span>黑鲨手机2</span>
+                        </a></li>
+                    </div>
+                    <div class="col_3">
+                        <li><a href="#">
+                            <img src="images/site_category_list/10.jpg" alt="">
+                            <span>Redmi K20 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/11.jpg" alt="">
+                            <span>Redmi K20</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/12.jpg" alt="">
+                            <span>Redmi 7A</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/13.jpg" alt="">
+                            <span>Redmi 7</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/14.jpg" alt="">
+                            <span>RedmiNote7 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/15.jpg" alt="">
+                            <span>Redmi Note 7</span>
+                        </a></li>
+                    </div>
+                    <div class="col_4">
+                        <li><a href="#">
+                            <img src="images/site_category_list/16.jpg" alt="">
+                            <span>移动4G+专区</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/17.jpg" alt="">
+                            <span>小米移动 电话卡</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/18.jpg" alt="">
+                            <span>手机上门维修</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/19.jpg" alt="">
+                            <span>云服务空间月卡</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/20.jpg" alt="">
+                            <span>米粉卡 日租卡</span>
+                        </a></li>
+                    </div>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">笔记本 平板</a><span>></span>
+            <div class="children2_box" style="display: none">
+                <ul class="children2_list">
+                    <div class="col_1">
+                        <li><a href="#">
+                            <img src="images/site_category_list/0.jpg" alt="">
+                            <span>小米CC9</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/1.jpg" alt="">
+                            <span>小米CC美图版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/2.jpg" alt="">
+                            <span>小米CC9e</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/3.jpg" alt="">
+                            <span>小米C9</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/4.jpg" alt="">
+                            <span>小米9 SE</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/5.jpg" alt="">
+                            <span>小米MIX 3</span>
+                        </a></li>
+                    </div>
+                    <div class="col_2">
+                        <li><a href="#">
+                            <img src="images/site_category_list/6.jpg" alt="">
+                            <span>小米8 青春版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/7.jpg" alt="">
+                            <span>小米8指纹版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/8.jpg" alt="">
+                            <span>小米MIX 2S</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/9.jpg" alt="">
+                            <span>小米Max 3</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/10.jpg" alt="">
+                            <span>黑鲨手机2 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/11.jpg" alt="">
+                            <span>黑鲨手机2</span>
+                        </a></li>
+                    </div>
+                    <div class="col_3">
+                        <li><a href="#">
+                            <img src="images/site_category_list/10.jpg" alt="">
+                            <span>Redmi K20 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/11.jpg" alt="">
+                            <span>Redmi K20</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/12.jpg" alt="">
+                            <span>Redmi 7A</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/13.jpg" alt="">
+                            <span>Redmi 7</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/14.jpg" alt="">
+                            <span>RedmiNote7 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/15.jpg" alt="">
+                            <span>Redmi Note 7</span>
+                        </a></li>
+                    </div>
+                    <div class="col_4">
+                        <li><a href="#">
+                            <img src="images/site_category_list/16.jpg" alt="">
+                            <span>移动4G+专区</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/17.jpg" alt="">
+                            <span>小米移动 电话卡</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/18.jpg" alt="">
+                            <span>手机上门维修</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/19.jpg" alt="">
+                            <span>云服务空间月卡</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/20.jpg" alt="">
+                            <span>米粉卡 日租卡</span>
+                        </a></li>
+                    </div>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">家电 插线板</a><span>></span>
+            <div class="children2_box" style="display: none">
+                <ul class="children2_list">
+                    <div class="col_1">
+                        <li><a href="#">
+                            <img src="images/site_category_list/0.jpg" alt="">
+                            <span>小米CC9</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/1.jpg" alt="">
+                            <span>小米CC美图版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/2.jpg" alt="">
+                            <span>小米CC9e</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/3.jpg" alt="">
+                            <span>小米C9</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/4.jpg" alt="">
+                            <span>小米9 SE</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/5.jpg" alt="">
+                            <span>小米MIX 3</span>
+                        </a></li>
+                    </div>
+                    <div class="col_2">
+                        <li><a href="#">
+                            <img src="images/site_category_list/6.jpg" alt="">
+                            <span>小米8 青春版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/7.jpg" alt="">
+                            <span>小米8指纹版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/8.jpg" alt="">
+                            <span>小米MIX 2S</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/9.jpg" alt="">
+                            <span>小米Max 3</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/10.jpg" alt="">
+                            <span>黑鲨手机2 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/11.jpg" alt="">
+                            <span>黑鲨手机2</span>
+                        </a></li>
+                    </div>
+                    <div class="col_3">
+                        <li><a href="#">
+                            <img src="images/site_category_list/10.jpg" alt="">
+                            <span>Redmi K20 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/11.jpg" alt="">
+                            <span>Redmi K20</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/12.jpg" alt="">
+                            <span>Redmi 7A</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/13.jpg" alt="">
+                            <span>Redmi 7</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/14.jpg" alt="">
+                            <span>RedmiNote7 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/15.jpg" alt="">
+                            <span>Redmi Note 7</span>
+                        </a></li>
+                    </div>
+                    <div class="col_4">
+                        <li><a href="#">
+                            <img src="images/site_category_list/16.jpg" alt="">
+                            <span>移动4G+专区</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/17.jpg" alt="">
+                            <span>小米移动 电话卡</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/18.jpg" alt="">
+                            <span>手机上门维修</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/19.jpg" alt="">
+                            <span>云服务空间月卡</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/20.jpg" alt="">
+                            <span>米粉卡 日租卡</span>
+                        </a></li>
+                    </div>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">出行 穿戴</a><span>></span>
+            <div class="children2_box" style="display: none">
+                <ul class="children2_list">
+                    <div class="col_1">
+                        <li><a href="#">
+                            <img src="images/site_category_list/0.jpg" alt="">
+                            <span>小米CC9</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/1.jpg" alt="">
+                            <span>小米CC美图版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/2.jpg" alt="">
+                            <span>小米CC9e</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/3.jpg" alt="">
+                            <span>小米C9</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/4.jpg" alt="">
+                            <span>小米9 SE</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/5.jpg" alt="">
+                            <span>小米MIX 3</span>
+                        </a></li>
+                    </div>
+                    <div class="col_2">
+                        <li><a href="#">
+                            <img src="images/site_category_list/6.jpg" alt="">
+                            <span>小米8 青春版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/7.jpg" alt="">
+                            <span>小米8指纹版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/8.jpg" alt="">
+                            <span>小米MIX 2S</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/9.jpg" alt="">
+                            <span>小米Max 3</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/10.jpg" alt="">
+                            <span>黑鲨手机2 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/11.jpg" alt="">
+                            <span>黑鲨手机2</span>
+                        </a></li>
+                    </div>
+                    <div class="col_3">
+                        <li><a href="#">
+                            <img src="images/site_category_list/10.jpg" alt="">
+                            <span>Redmi K20 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/11.jpg" alt="">
+                            <span>Redmi K20</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/12.jpg" alt="">
+                            <span>Redmi 7A</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/13.jpg" alt="">
+                            <span>Redmi 7</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/14.jpg" alt="">
+                            <span>RedmiNote7 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/15.jpg" alt="">
+                            <span>Redmi Note 7</span>
+                        </a></li>
+                    </div>
+                    <div class="col_4">
+                        <li><a href="#">
+                            <img src="images/site_category_list/16.jpg" alt="">
+                            <span>移动4G+专区</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/17.jpg" alt="">
+                            <span>小米移动 电话卡</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/18.jpg" alt="">
+                            <span>手机上门维修</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/19.jpg" alt="">
+                            <span>云服务空间月卡</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/20.jpg" alt="">
+                            <span>米粉卡 日租卡</span>
+                        </a></li>
+                    </div>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">智能 路由器</a><span>></span>
+            <div class="children2_box" style="display: none">
+                <ul class="children2_list">
+                    <div class="col_1">
+                        <li><a href="#">
+                            <img src="images/site_category_list/0.jpg" alt="">
+                            <span>小米CC9</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/1.jpg" alt="">
+                            <span>小米CC美图版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/2.jpg" alt="">
+                            <span>小米CC9e</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/3.jpg" alt="">
+                            <span>小米C9</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/4.jpg" alt="">
+                            <span>小米9 SE</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/5.jpg" alt="">
+                            <span>小米MIX 3</span>
+                        </a></li>
+                    </div>
+                    <div class="col_2">
+                        <li><a href="#">
+                            <img src="images/site_category_list/6.jpg" alt="">
+                            <span>小米8 青春版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/7.jpg" alt="">
+                            <span>小米8指纹版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/8.jpg" alt="">
+                            <span>小米MIX 2S</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/9.jpg" alt="">
+                            <span>小米Max 3</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/10.jpg" alt="">
+                            <span>黑鲨手机2 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/11.jpg" alt="">
+                            <span>黑鲨手机2</span>
+                        </a></li>
+                    </div>
+                    <div class="col_3">
+                        <li><a href="#">
+                            <img src="images/site_category_list/10.jpg" alt="">
+                            <span>Redmi K20 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/11.jpg" alt="">
+                            <span>Redmi K20</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/12.jpg" alt="">
+                            <span>Redmi 7A</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/13.jpg" alt="">
+                            <span>Redmi 7</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/14.jpg" alt="">
+                            <span>RedmiNote7 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/15.jpg" alt="">
+                            <span>Redmi Note 7</span>
+                        </a></li>
+                    </div>
+                    <div class="col_4">
+                        <li><a href="#">
+                            <img src="images/site_category_list/16.jpg" alt="">
+                            <span>移动4G+专区</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/17.jpg" alt="">
+                            <span>小米移动 电话卡</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/18.jpg" alt="">
+                            <span>手机上门维修</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/19.jpg" alt="">
+                            <span>云服务空间月卡</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/20.jpg" alt="">
+                            <span>米粉卡 日租卡</span>
+                        </a></li>
+                    </div>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">电源 配件</a><span>></span>
+            <div class="children2_box" style="display: none">
+                <ul class="children2_list">
+                    <div class="col_1">
+                        <li><a href="#">
+                            <img src="images/site_category_list/0.jpg" alt="">
+                            <span>小米CC9</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/1.jpg" alt="">
+                            <span>小米CC美图版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/2.jpg" alt="">
+                            <span>小米CC9e</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/3.jpg" alt="">
+                            <span>小米C9</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/4.jpg" alt="">
+                            <span>小米9 SE</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/5.jpg" alt="">
+                            <span>小米MIX 3</span>
+                        </a></li>
+                    </div>
+                    <div class="col_2">
+                        <li><a href="#">
+                            <img src="images/site_category_list/6.jpg" alt="">
+                            <span>小米8 青春版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/7.jpg" alt="">
+                            <span>小米8指纹版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/8.jpg" alt="">
+                            <span>小米MIX 2S</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/9.jpg" alt="">
+                            <span>小米Max 3</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/10.jpg" alt="">
+                            <span>黑鲨手机2 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/11.jpg" alt="">
+                            <span>黑鲨手机2</span>
+                        </a></li>
+                    </div>
+                    <div class="col_3">
+                        <li><a href="#">
+                            <img src="images/site_category_list/10.jpg" alt="">
+                            <span>Redmi K20 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/11.jpg" alt="">
+                            <span>Redmi K20</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/12.jpg" alt="">
+                            <span>Redmi 7A</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/13.jpg" alt="">
+                            <span>Redmi 7</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/14.jpg" alt="">
+                            <span>RedmiNote7 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/15.jpg" alt="">
+                            <span>Redmi Note 7</span>
+                        </a></li>
+                    </div>
+                    <div class="col_4">
+                        <li><a href="#">
+                            <img src="images/site_category_list/16.jpg" alt="">
+                            <span>移动4G+专区</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/17.jpg" alt="">
+                            <span>小米移动 电话卡</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/18.jpg" alt="">
+                            <span>手机上门维修</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/19.jpg" alt="">
+                            <span>云服务空间月卡</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/20.jpg" alt="">
+                            <span>米粉卡 日租卡</span>
+                        </a></li>
+                    </div>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">健康 儿童</a><span>></span>
+            <div class="children2_box" style="display: none">
+                <ul class="children2_list">
+                    <div class="col_1">
+                        <li><a href="#">
+                            <img src="images/site_category_list/0.jpg" alt="">
+                            <span>小米CC9</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/1.jpg" alt="">
+                            <span>小米CC美图版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/2.jpg" alt="">
+                            <span>小米CC9e</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/3.jpg" alt="">
+                            <span>小米C9</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/4.jpg" alt="">
+                            <span>小米9 SE</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/5.jpg" alt="">
+                            <span>小米MIX 3</span>
+                        </a></li>
+                    </div>
+                    <div class="col_2">
+                        <li><a href="#">
+                            <img src="images/site_category_list/6.jpg" alt="">
+                            <span>小米8 青春版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/7.jpg" alt="">
+                            <span>小米8指纹版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/8.jpg" alt="">
+                            <span>小米MIX 2S</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/9.jpg" alt="">
+                            <span>小米Max 3</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/10.jpg" alt="">
+                            <span>黑鲨手机2 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/11.jpg" alt="">
+                            <span>黑鲨手机2</span>
+                        </a></li>
+                    </div>
+                    <div class="col_3">
+                        <li><a href="#">
+                            <img src="images/site_category_list/10.jpg" alt="">
+                            <span>Redmi K20 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/11.jpg" alt="">
+                            <span>Redmi K20</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/12.jpg" alt="">
+                            <span>Redmi 7A</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/13.jpg" alt="">
+                            <span>Redmi 7</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/14.jpg" alt="">
+                            <span>RedmiNote7 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/15.jpg" alt="">
+                            <span>Redmi Note 7</span>
+                        </a></li>
+                    </div>
+                    <div class="col_4">
+                        <li><a href="#">
+                            <img src="images/site_category_list/16.jpg" alt="">
+                            <span>移动4G+专区</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/17.jpg" alt="">
+                            <span>小米移动 电话卡</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/18.jpg" alt="">
+                            <span>手机上门维修</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/19.jpg" alt="">
+                            <span>云服务空间月卡</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/20.jpg" alt="">
+                            <span>米粉卡 日租卡</span>
+                        </a></li>
+                    </div>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">耳机 音箱</a><span>></span>
+            <div class="children2_box" style="display: none">
+                <ul class="children2_list">
+                    <div class="col_1">
+                        <li><a href="#">
+                            <img src="images/site_category_list/0.jpg" alt="">
+                            <span>小米CC9</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/1.jpg" alt="">
+                            <span>小米CC美图版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/2.jpg" alt="">
+                            <span>小米CC9e</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/3.jpg" alt="">
+                            <span>小米C9</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/4.jpg" alt="">
+                            <span>小米9 SE</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/5.jpg" alt="">
+                            <span>小米MIX 3</span>
+                        </a></li>
+                    </div>
+                    <div class="col_2">
+                        <li><a href="#">
+                            <img src="images/site_category_list/6.jpg" alt="">
+                            <span>小米8 青春版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/7.jpg" alt="">
+                            <span>小米8指纹版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/8.jpg" alt="">
+                            <span>小米MIX 2S</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/9.jpg" alt="">
+                            <span>小米Max 3</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/10.jpg" alt="">
+                            <span>黑鲨手机2 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/11.jpg" alt="">
+                            <span>黑鲨手机2</span>
+                        </a></li>
+                    </div>
+                    <div class="col_3">
+                        <li><a href="#">
+                            <img src="images/site_category_list/10.jpg" alt="">
+                            <span>Redmi K20 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/11.jpg" alt="">
+                            <span>Redmi K20</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/12.jpg" alt="">
+                            <span>Redmi 7A</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/13.jpg" alt="">
+                            <span>Redmi 7</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/14.jpg" alt="">
+                            <span>RedmiNote7 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/15.jpg" alt="">
+                            <span>Redmi Note 7</span>
+                        </a></li>
+                    </div>
+                    <div class="col_4">
+                        <li><a href="#">
+                            <img src="images/site_category_list/16.jpg" alt="">
+                            <span>移动4G+专区</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/17.jpg" alt="">
+                            <span>小米移动 电话卡</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/18.jpg" alt="">
+                            <span>手机上门维修</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/19.jpg" alt="">
+                            <span>云服务空间月卡</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/20.jpg" alt="">
+                            <span>米粉卡 日租卡</span>
+                        </a></li>
+                    </div>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">生活 箱包</a><span>></span>
+            <div class="children2_box" style="display: none">
+                <ul class="children2_list">
+                    <div class="col_1">
+                        <li><a href="#">
+                            <img src="images/site_category_list/0.jpg" alt="">
+                            <span>小米CC9</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/1.jpg" alt="">
+                            <span>小米CC美图版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/2.jpg" alt="">
+                            <span>小米CC9e</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/3.jpg" alt="">
+                            <span>小米C9</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/4.jpg" alt="">
+                            <span>小米9 SE</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/5.jpg" alt="">
+                            <span>小米MIX 3</span>
+                        </a></li>
+                    </div>
+                    <div class="col_2">
+                        <li><a href="#">
+                            <img src="images/site_category_list/6.jpg" alt="">
+                            <span>小米8 青春版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/7.jpg" alt="">
+                            <span>小米8指纹版</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/8.jpg" alt="">
+                            <span>小米MIX 2S</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/9.jpg" alt="">
+                            <span>小米Max 3</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/10.jpg" alt="">
+                            <span>黑鲨手机2 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/11.jpg" alt="">
+                            <span>黑鲨手机2</span>
+                        </a></li>
+                    </div>
+                    <div class="col_3">
+                        <li><a href="#">
+                            <img src="images/site_category_list/10.jpg" alt="">
+                            <span>Redmi K20 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/11.jpg" alt="">
+                            <span>Redmi K20</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/12.jpg" alt="">
+                            <span>Redmi 7A</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/13.jpg" alt="">
+                            <span>Redmi 7</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/14.jpg" alt="">
+                            <span>RedmiNote7 Pro</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/15.jpg" alt="">
+                            <span>Redmi Note 7</span>
+                        </a></li>
+                    </div>
+                    <div class="col_4">
+                        <li><a href="#">
+                            <img src="images/site_category_list/16.jpg" alt="">
+                            <span>移动4G+专区</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/17.jpg" alt="">
+                            <span>小米移动 电话卡</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/18.jpg" alt="">
+                            <span>手机上门维修</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/19.jpg" alt="">
+                            <span>云服务空间月卡</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/site_category_list/20.jpg" alt="">
+                            <span>米粉卡 日租卡</span>
+                        </a></li>
+                    </div>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="small_ad">
+    <div class="small_ad_container share_center">
+        <ul class="home_channel_list share_left">
+            <li><a href="#"><img src="images/82abdba456e8caaea5848a0cddce03db.png" alt="">小米秒杀</a></li>
+            <li><a href="#"><img src="images/806f2dfb2d27978e33fe3815d3851fa3.png" alt="">企业团购</a></li>
+            <li><a href="#"><img src="images/eded6fa3b897a058163e2485532c4f10.png" alt="">F码通道</a></li>
+            <li><a href="#"><img src="images/43a3195efa6a3cc7662efed8e7abe8bf.png" alt="">米粉卡</a></li>
+            <li><a href="#"><img src="images/f4846bca6010a0deb9f85464409862af.png" alt="">以旧换新</a></li>
+            <li><a href="#"><img src="images/9a76d7636b08e0988efb4fc384ae497b.png" alt="">话费充值</a></li>
+        </ul>
+        <ul class="small_ad_list share_left">
+            <li><a href="#"><img src="images/662bd9c766ffc43ec6db3ad789739153.jpg" alt=""></a></li>
+            <li><a href="#"><img src="images/3e6d12e6360dc668bcb032fd650def37.jpg" alt=""></a></li>
+            <li><a href="#"><img src="images/816a66edef10673b4768128b41804cae.jpg" alt=""></a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="middle_bd">
+    <div class="box_bd">
+        <!--小米闪购-->
+        <div class="share_center page_main_box">
+            <div class="page_main_header">
+                <h2>小米闪购</h2>
+                <a class="flashsale_next" href="javascript:void(0);"><div> > </div></a>
+                <a class="flashsale_prev" href="javascript:void(0);"><div> < </div></a>
+            </div>
+            <!--清除浮动-->
+            <div class="share_clear"></div>
+            <div class="flash_sale">
+                <p class="time">14:00 场</p>
+                <img src="images/download.jpg" alt="">
+                <p class="tip">距离结束还有</p>
+                <div class="countdown">
+                    <span id="hour_time">01</span>
+                    <i>:</i>
+                    <span id="minus_time">13</span>
+                    <i>:</i>
+                    <span id="second_time">20</span>
+                </div>
+            </div>
+            <div class="flash_sale_list">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/page_main_box/0.jpg" alt="">
+                            <p class="title">好好学习</p>
+                            <p class="detail">外教1对1专注学英语</p>
+                            <div>
+                                <p class="price">586.45元</p>
+                                <del class="discount">1172.9元</del>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/page_main_box/1.jpg" alt="">
+                            <p class="title">米家电水壶白色</p>
+                            <p class="detail">一杯水，是一家人的安心</p>
+                            <div>
+                                <p class="price">89元</p>
+                                <del class="discount">99元</del>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/page_main_box/2.jpg" alt="">
+                            <p class="title">小米蓝牙耳机（K歌版）白色</p>
+                            <p class="detail">我的私人KTV</p>
+                            <div>
+                                <p class="price">199元</p>
+                                <del class="discount">249元</del>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/page_main_box/3.jpg" alt="">
+                            <p class="title">小米米家滤水壶</p>
+                            <p class="detail">高效过滤享安心好水</p>
+                            <div>
+                                <p class="price">99元</p>
+                                <del class="discount">129元</del>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/page_main_box/4.jpg" alt="">
+                            <p class="title">小米笔记本电脑</p>
+                            <p class="detail">全面均衡的国民薄本</p>
+                            <div>
+                                <p class="price">2999元</p>
+                                <del class="discount">3399元</del>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/page_main_box/6.jpg" alt="">
+                            <p class="title">小米笔记本电脑</p>
+                            <p class="detail">全面均衡的国民薄本</p>
+                            <div>
+                                <p class="price">2999元</p>
+                                <del class="discount">3399元</del>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/page_main_box/7.jpg" alt="">
+                            <p class="title">小米笔记本电脑</p>
+                            <p class="detail">全面均衡的国民薄本</p>
+                            <div>
+                                <p class="price">2999元</p>
+                                <del class="discount">3399元</del>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/page_main_box/8.jpg" alt="">
+                            <p class="title">小米笔记本电脑</p>
+                            <p class="detail">全面均衡的国民薄本</p>
+                            <div>
+                                <p class="price">2999元</p>
+                                <del class="discount">3399元</del>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/page_main_box/9.jpg" alt="">
+                            <p class="title">小米笔记本电脑</p>
+                            <p class="detail">全面均衡的国民薄本</p>
+                            <div>
+                                <p class="price">2999元</p>
+                                <del class="discount">3399元</del>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/page_main_box/10.jpg" alt="">
+                            <p class="title">小米笔记本电脑</p>
+                            <p class="detail">全面均衡的国民薄本</p>
+                            <div>
+                                <p class="price">2999元</p>
+                                <del class="discount">3399元</del>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/page_main_box/11.jpg" alt="">
+                            <p class="title">小米笔记本电脑</p>
+                            <p class="detail">全面均衡的国民薄本</p>
+                            <div>
+                                <p class="price">2999元</p>
+                                <del class="discount">3399元</del>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/page_main_box/12.jpg" alt="">
+                            <p class="title">小米笔记本电脑</p>
+                            <p class="detail">全面均衡的国民薄本</p>
+                            <div>
+                                <p class="price">2999元</p>
+                                <del class="discount">3399元</del>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/page_main_box/13.jpg" alt="">
+                            <p class="title">小米笔记本电脑</p>
+                            <p class="detail">全面均衡的国民薄本</p>
+                            <div>
+                                <p class="price">2999元</p>
+                                <del class="discount">3399元</del>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/page_main_box/14.jpg" alt="">
+                            <p class="title">小米笔记本电脑</p>
+                            <p class="detail">全面均衡的国民薄本</p>
+                            <div>
+                                <p class="price">2999元</p>
+                                <del class="discount">3399元</del>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/page_main_box/16.jpg" alt="">
+                            <p class="title">小米笔记本电脑</p>
+                            <p class="detail">全面均衡的国民薄本</p>
+                            <div>
+                                <p class="price">2999元</p>
+                                <del class="discount">3399元</del>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/page_main_box/17.jpg" alt="">
+                            <p class="title">小米笔记本电脑</p>
+                            <p class="detail">全面均衡的国民薄本</p>
+                            <div>
+                                <p class="price">2999元</p>
+                                <del class="discount">3399元</del>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/page_main_box/18.jpg" alt="">
+                            <p class="title">小米笔记本电脑</p>
+                            <p class="detail">全面均衡的国民薄本</p>
+                            <div>
+                                <p class="price">2999元</p>
+                                <del class="discount">3399元</del>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/page_main_box/19.jpg" alt="">
+                            <p class="title">小米笔记本电脑</p>
+                            <p class="detail">全面均衡的国民薄本</p>
+                            <div>
+                                <p class="price">2999元</p>
+                                <del class="discount">3399元</del>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/page_main_box/20.jpg" alt="">
+                            <p class="title">小米笔记本电脑</p>
+                            <p class="detail">全面均衡的国民薄本</p>
+                            <div>
+                                <p class="price">2999元</p>
+                                <del class="discount">3399元</del>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/page_main_box/21.jpg" alt="">
+                            <p class="title">小米笔记本电脑</p>
+                            <p class="detail">全面均衡的国民薄本</p>
+                            <div>
+                                <p class="price">2999元</p>
+                                <del class="discount">3399元</del>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="box_bd">
+        <div class="box_container share_center">
+            <img class="long_ad" src="images/long_ad.jpg" alt="">
+            <div class="brick_title">
+                <h2 class="title share_left">手机</h2>
+                <a class="share_right" href="#"><span class="more">查看更多  <span class="logo"> ></span></span></a>
+            </div>
+            <li class="brick_item1 share_left"><a href="#"><img src="images/gril_phone.jpg" alt=""></a></li>
+            <ul class="phone_list">
+                <li class="phone_item">
+                    <a href="#"><img src="images/blue_phone.jpg" alt="">
+                        <h3 class="title">Redmi K20 Pro 6GB+128GB</h3>
+                        <p class="detail">骁龙855，弹出全面屏</p>
+                        <span class="price">2299元</span>
+                        <del class="discount">2599元</del>
+                    </a>
+                </li>
+                <li class="phone_item">
+                    <a href="#"><img src="images/box_bd/phone/0ce61b71e2f81df62bd0c05aaa901d22.webp" alt="">
+                        <h3 class="title">Redmi Note 7</h3>
+                        <p class="detail">4800万拍照千元机</p>
+                        <span class="price">1199元</span>
+                        <del class="discount">1399元</del>
+                    </a>
+                </li>
+                <li class="phone_item">
+                    <a href="#"><img src="images/box_bd/phone/a7f616f2e931d6433f36fb356693c3d1.webp" alt="">
+                        <h3 class="title">小米9王源限量版</h3>
+                        <p class="detail">骁龙855，索尼4800万三摄</p>
+                        <span class="price">3599元</span>
+                    </a>
+                </li>
+                <li class="phone_item">
+                    <a href="#"><img src="images/box_bd/phone/411d540271f6efbdd882fa33daee0de3.webp" alt="">
+                        <h3 class="title">小米MIX38GB+128GB</h3>
+                        <p class="detail">DxO百分拍照手机</p>
+                        <span class="price">2599元</span>
+                        <del class="discount">3599元</del>
+                    </a>
+                </li>
+                <li class="phone_item">
+                    <a href="#"><img src="images/box_bd/phone/80e162c89662636b1e06402ede5bf530.webp" alt="">
+                        <h3 class="title">小米CC9e</h3>
+                        <p class="detail">3200万自拍，4800万三摄</p>
+                        <span class="price">1299元</span>
+                    </a>
+                </li>
+                <li class="phone_item">
+                    <a href="#"><img src="images/box_bd/phone/5a29e913ad0ea4e06725b6a45c6c6822.webp" alt="">
+                        <h3 class="title">小米CC9</h3>
+                        <p class="detail">3200万自拍，4800万三摄</p>
+                        <span class="price">1799元</span>
+                    </a>
+                </li>
+                <li class="phone_item">
+                <a href="#"><img src="images/box_bd/phone/98b6d5e894ffed368c8bd316358702d5.webp" alt="">
+                    <h3 class="title">小米CC9 8GB+256GB美图定制版</h3>
+                    <p class="detail">8GB+256GB，100%美图相机</p>
+                    <span class="price">2599元</span>
+                </a>
+            </li><li class="phone_item">
+                <a href="#"><img src="images/box_bd/phone/e4f077546060c890516500c2a23d64f6.webp" alt="">
+                    <h3 class="title">Redmi Note 7 Pro</h3>
+                    <p class="detail">索尼4800万超清拍照</p>
+                    <span class="price">1399元</span>
+                    <del class="discount">1599元</del>
+                </a>
+            </li>
+            </ul>
+        </div>
+    </div>
+    <div class="box_bd">
+        <div class="box_container share_center">
+            <img class="long_ad" src="images/box_bd/3e63ab43e7c32296f18f34c8efb41534.webp" alt="">
+            <div class="brick_title">
+                <h2 class="title share_left">家电</h2>
+                <a class="share_right" href="#"><span class="more">查看更多  <span class="logo"> ></span></span></a>
+            </div>
+            <div class="brick_item1">
+                <li class="share_left">
+                    <a href="#"><img src="images/box_bd/221f2c4adfda2fc3827ce3a5dcb4850a.webp" alt="">
+                    </a>
+                </li>
+                <li class="share_left">
+                    <a href="#"><img src="images/box_bd/42d70bbe9921220f647850a49e29f227.webp" alt=""></a>
+                </li>
+            </div>
+            <ul class="phone_list">
+                <li class="phone_item">
+                    <a href="#"><img src="images/box_bd/8ce424d6fe93dfb74733b5838140b7ee.webp" alt="">
+                        <h3 class="title">米家互联网空调C1（一级能效)</h3>
+                        <p class="detail">1.5匹，自清洁，全直流变频</p>
+                        <span class="price">2299元</span>
+                        <del class="discount">2799元</del>
+                    </a>
+                </li>
+                <li class="phone_item">
+                    <a href="#"><img src="images/box_bd/2b911be4c2f156bb6e4cf367c6080045.jpg" alt="">
+                        <h3 class="title">米家空调</h3>
+                        <p class="detail">大1匹，静音，快速制冷热</p>
+                        <span class="price">1499元</span>
+                        <del class="discount">1799元</del>
+                    </a>
+                </li>
+                <li class="phone_item">
+                    <a href="#"><img src="images/box_bd/ec20453216dcd42f982cffe5fdbc3115.webp" alt="">
+                        <h3 class="title">米家互联网洗烘一体机Pro 10kg</h3>
+                        <p class="detail">智能洗烘，省心省力</p>
+                        <span class="price">2999元</span>
+                    </a>
+                </li>
+                <li class="phone_item">
+                    <a href="#"><img src="images/box_bd/ef617fac-7489-436d-b74e-c43582f09633!200x200.jpg" alt="">
+                        <h3 class="title">小米电视4A 32英寸</h3>
+                        <p class="detail">人工智能系统，高清液晶屏</p>
+                        <span class="price">799元</span>
+                    </a>
+                </li>
+                <li class="phone_item">
+                    <a href="#"><img src="images/box_bd/b8c63a2024528fe5410ebe669b7d2407.webp" alt="">
+                        <h3 class="title">Redmi K20 Pro 6GB+128GB</h3>
+                        <p class="detail">骁龙855，弹出全面屏</p>
+                        <span class="price">2299元</span>
+                        <del class="discount">2599元</del>
+                    </a>
+                </li>
+                <li class="phone_item">
+                    <a href="#"><img src="images/box_bd/ef6b4e9b9151849b3b1fb1dbf069c6ed.webp" alt="">
+                        <h3 class="title">Redmi K20 Pro 6GB+128GB</h3>
+                        <p class="detail">骁龙855，弹出全面屏</p>
+                        <span class="price">2299元</span>
+                        <del class="discount">2599元</del>
+                    </a>
+                </li>
+                <li class="phone_item">
+                    <a href="#"><img src="images/box_bd/cd2aa2dcad6440b469c22e27db9b6236.webp" alt="">
+                        <h3 class="title">Redmi K20 Pro 6GB+128GB</h3>
+                        <p class="detail">骁龙855，弹出全面屏</p>
+                        <span class="price">2299元</span>
+                        <del class="discount">2599元</del>
+                    </a>
+                </li>
+                <li class="phone_item small_phone_item">
+                    <a href="#"><img src="images/box_bd/74e573c4c0d89048392d14831cc507d5.webp" alt="">
+                        <h3 class="title">Air 13.3"2019款</h3>
+                        <span class="price">4999元起</span>
+                    </a>
+                </li>
+                <li class="phone_item small_phone_item">
+                    <a href="#"><img src="images/box_bd/Snipaste_2019-08-28_10-26-08.png" alt="">
+                        <h3 class="title">浏览更多</h3>
+                        <p class="detail">热门</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="box_bd">
+        <div class="box_container share_center">
+            <img class="long_ad" src="images/long_ad.jpg" alt="">
+            <div class="brick_title">
+                <h2 class="title share_left">手机</h2>
+                <a class="share_right" href="#"><span class="more">查看更多  <span class="logo"> ></span></span></a>
+            </div>
+            <li class="brick_item1 share_left"><a href="#"><img src="images/gril_phone.jpg" alt=""></a></li>
+            <ul class="phone_list">
+                <li class="phone_item">
+                    <a href="#"><img src="images/blue_phone.jpg" alt="">
+                        <h3 class="title">Redmi K20 Pro 6GB+128GB</h3>
+                        <p class="detail">骁龙855，弹出全面屏</p>
+                        <span class="price">2299元</span>
+                        <del class="discount">2599元</del>
+                    </a>
+                </li>
+                <li class="phone_item">
+                    <a href="#"><img src="images/blue_phone.jpg" alt="">
+                        <h3 class="title">Redmi K20 Pro 6GB+128GB</h3>
+                        <p class="detail">骁龙855，弹出全面屏</p>
+                        <span class="price">2299元</span>
+                        <del class="discount">2599元</del>
+                    </a>
+                </li>
+                <li class="phone_item">
+                    <a href="#"><img src="images/blue_phone.jpg" alt="">
+                        <h3 class="title">Redmi K20 Pro 6GB+128GB</h3>
+                        <p class="detail">骁龙855，弹出全面屏</p>
+                        <span class="price">2299元</span>
+                        <del class="discount">2599元</del>
+                    </a>
+                </li>
+                <li class="phone_item">
+                    <a href="#"><img src="images/blue_phone.jpg" alt="">
+                        <h3 class="title">Redmi K20 Pro 6GB+128GB</h3>
+                        <p class="detail">骁龙855，弹出全面屏</p>
+                        <span class="price">2299元</span>
+                        <del class="discount">2599元</del>
+                    </a>
+                </li>
+                <li class="phone_item">
+                    <a href="#"><img src="images/blue_phone.jpg" alt="">
+                        <h3 class="title">Redmi K20 Pro 6GB+128GB</h3>
+                        <p class="detail">骁龙855，弹出全面屏</p>
+                        <span class="price">2299元</span>
+                        <del class="discount">2599元</del>
+                    </a>
+                </li>
+                <li class="phone_item">
+                    <a href="#"><img src="images/blue_phone.jpg" alt="">
+                        <h3 class="title">Redmi K20 Pro 6GB+128GB</h3>
+                        <p class="detail">骁龙855，弹出全面屏</p>
+                        <span class="price">2299元</span>
+                        <del class="discount">2599元</del>
+                    </a>
+                </li>
+                <li class="phone_item">
+                    <a href="#"><img src="images/blue_phone.jpg" alt="">
+                        <h3 class="title">Redmi K20 Pro 6GB+128GB</h3>
+                        <p class="detail">骁龙855，弹出全面屏</p>
+                        <span class="price">2299元</span>
+                        <del class="discount">2599元</del>
+                    </a>
+                </li>
+                <li class="phone_item">
+                    <a href="#"><img src="images/blue_phone.jpg" alt="">
+                        <h3 class="title">Redmi K20 Pro 6GB+128GB</h3>
+                        <p class="detail">骁龙855，弹出全面屏</p>
+                        <span class="price">2299元</span>
+                        <del class="discount">2599元</del>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--视频区-->
+    <div class="video_box share_center">
+        <div class="box_title">
+            <h2 class="share_left">视频</h2>
+            <div class="more">
+                <a class="share_right" href="#"><span class="more">查看更多  <span class="logo"> ></span></span></a>
+            </div>
+        </div>
+        <div class="share_clear"></div>
+        <div class="share_center">
+            <ul class="video_list box_container">
+                <li class="video_item"><a href="javascript: void(0);">
+                    <div class="figure_img">
+                        <img src="images/video/1541da85ac8b204056374641eee24726.webp" alt="">
+                        <span class="glyphicon glyphicon-play-circle"></span>
+                    </div>
+                    <h3 class="title">小米CC9</h3>
+                    <p class="desc">深蓝星球</p>
+                </a></li>
+                <li class="video_item"><a href="javascript: void(0);">
+                    <div class="figure_img">
+                        <img src="images/video/af835147320dafa808331f156222223e.webp" alt="">
+                        <span class="glyphicon glyphicon-play-circle"></span>
+                    </div>
+                    <h3 class="title">Redmi Note 7系列</h3>
+                    <p class="desc">镜花水月</p>
+                </a></li>
+                <li class="video_item"><a href="javascript: void(0);">
+                    <div class="figure_img">
+                        <img src="images/video/c2e9a7fc809f7aeac30bf538baf8f156.webp" alt="">
+                        <span class="glyphicon glyphicon-play-circle"></span>
+                    </div>
+                    <h3 class="title">黑鲨游戏手机2 Pro</h3>
+                    <p class="desc">指尖主宰 发布会</p>
+                </a></li>
+                <li class="video_item"><a href="javascript: void(0);">
+                    <div class="figure_img">
+                        <img src="images/video/bfc860e9877a601f9707006d31ddbd67.jpg" alt="">
+                        <span class="glyphicon glyphicon-play-circle"></span>
+                    </div>
+                    <h3 class="title">小米手环4</h3>
+                    <p class="desc">改变从今开始</p>
+                </a></li>
+            </ul>
+        </div>
+        <div class="share_clear"></div>
+    </div>
+</div>
+
+<div class="dark_background">
+    <div class="bofang">
+        <div class="title">
+            <p>小米CC9</p>
+            <span class="glyphicon glyphicon-remove"></span>
+        </div>
+        <video data-v-e073abaa="" preload controls id="miPlayerVideo" poster="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1541da85ac8b204056374641eee24726.jpg" src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7a2e31bf18e8fb5abd2a32ea93f0d46b.mp4" preload="none"></video>
+    </div>
+</div>
+
+
+
+
+<div class="site_footer">
+    <div class="footer_container share_center">
+        <div class="footer_service">
+            <ul class="footer_service_list">
+                <li><a href="#"><span class="icon-fix"></span> 预约维修服务</a></li>
+                <li><a href="#"><span class="icon-day"></span> 7天无理由退货</a></li>
+                <li><a href="#"><span class="icon-day1"></span> 15天免费换货</a></li>
+                <li><a href="#"><span class="icon-gift"></span> 满150元包邮</a></li>
+                <li><a href="#"><span class="icon-position"></span> 520余家售后网点</a></li>
+            </ul>
+        </div>
+        <div class="footer_link">
+            <dl>
+                <dt>帮助中心</dt>
+                <dd><a href="#">账户管理</a></dd>
+                <dd><a href="#">购物指南</a></dd>
+                <dd><a href="#">订单操作</a></dd>
+            </dl>
+            <dl>
+                <dt>服务支持</dt>
+                <dd><a href="#">售后政策</a></dd>
+                <dd><a href="#">自助服务</a></dd>
+                <dd><a href="#">相关下载</a></dd>
+            </dl>
+            <dl>
+                <dt>线下门店</dt>
+                <dd><a href="#">小米之家</a></dd>
+                <dd><a href="#">服务网点</a></dd>
+                <dd><a href="#">授权体验店</a></dd>
+            </dl>
+            <dl>
+                <dt>关于小米</dt>
+                <dd><a href="#">了解小米</a></dd>
+                <dd><a href="#">加入小米</a></dd>
+                <dd><a href="#">投资者关系</a></dd>
+            </dl>
+            <dl>
+                <dt>关注我们</dt>
+                <dd><a href="#">新浪微博</a></dd>
+                <dd><a href="#">官方微信</a></dd>
+                <dd><a href="#">联系我们</a></dd>
+            </dl>
+            <dl>
+                <dt>特色服务</dt>
+                <dd><a href="#">F码通道</a></dd>
+                <dd><a href="#">礼物码</a></dd>
+                <dd><a href="#">防伪查询</a></dd>
+            </dl>
+            <div class="col_contact share_right">
+                <p class="phone">400-100-5678</p>
+                <p class="open_time">周一至周日 8:00-18:00
+                    <br>
+                    (仅收市话费)
+                </p>
+                <a href="#"><span class="icon-talk"></span>人工服务</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--底部栏链接-->
+<!--<div class="site_info">-->
+    <!--<div class="site_info_container share_center">-->
+        <!--<div class="logo"></div>-->
+        <!--<div class="info_text">-->
+            <!--<p class="sites"></p>-->
+            <!--<p></p>-->
+        <!--</div>-->
+        <!--<div class="info_link"></div>-->
+    <!--</div>-->
+    <!--<div class="sologen">探索黑科技，小米为发烧而生</div>-->
+<!--</div>-->
+
+<!--侧边悬浮栏-->
+<div class="go_home_bar">
+    <ul>
+        <li><a class="icon-phone" href="#"></a></li>
+        <li><a class="icon-user" href="#"></a></li>
+        <li><a class="icon-fix" href="#"></a></li>
+        <li><a class="icon-uniE909" href="#"></a></li>
+        <li><a class="icon-uniE900" href="#"></a></li>
+    </ul>
+    <a class="top_btn icon-to_top" style="display: none" href="javascript:void(0);"></a>
+</div>
+
+</body>
+</html>
